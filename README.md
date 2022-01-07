@@ -2,7 +2,7 @@
 
 ### Esse é um projeto para aplicar o conhecimento de uso de API, orientado pelo curso da Cataline.io
 
-<img width=500px src="readme.gif/cep.gif">
+<img width=700px src="readme.gif/cep.gif">
 
 #
 
