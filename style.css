@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(157, 171, 173);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    text-align: center;
+    width: 60vw;
+    min-width: 17rem;
+    max-width: 450px;
+    height: auto;
+    background-color: #56ad9a;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 0px#000000;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 20vh;
+    min-height: 120px;
+}
+h1{
+    width: 100%;
+}
+input{
+    width: 50%;
+    min-width: 200px;
+    height: 20%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(50, 255, 234);
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button{
+    width: 30%;
+    min-width: 7rem;
+    height: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 20px #182153 inset, 0px 0px 0px #14d6d7;
+    background: linear-gradient(90deg, #14d6d7 0%, #0b1455 50%);
+    color: white;
+    font-size: calc(13px + 0.2vw);
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+}
+button:hover{
+    box-shadow: 0px 0px 20px 0px #14d6d7 inset, 0px 0px 10px 2px #279191;
+}
+button:active{
+    box-shadow: 0px 0px 20px 0px #9900ff inset, 0px 0px 1px 0px #00ffaa;
+    transform: translate(1px, 1px)
+}
+#result{
+    margin-bottom: 20px;
+    color: #182153;
+    font-size: 20px;
+    text-transform: capitalize;
+}
