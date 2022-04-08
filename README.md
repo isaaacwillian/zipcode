@@ -3,7 +3,7 @@
 ### Esse é um projeto para aplicar o conhecimento de uso de API, orientado pelo curso da Cataline.io
 
 <img width=700px src="readme.gif/cep.gif">
-
+ 
 #
 
 <div style="display:inline-block">
